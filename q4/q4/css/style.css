@@ -1,1 +1,47 @@
 @charset "UTF-8";
+.table--area{
+  display:table;
+  width:100%;
+}
+
+.table--area :first-child{
+  margin-bottom: 50px;
+}
+
+.common{
+  display:table-cell;
+  padding:20px;
+  text-align: center;
+}
+
+.red--box{
+  width:300px;
+  background-color:#ff7b7b;
+}
+
+.blue--box{
+  background-color:#7b86ff;
+}
+
+.yellow--box{
+  width:300px;
+  background-color:#fff27b;
+}
+
+.green--box{
+  background-color:#7bff91;
+}
+
+.pink--box{
+  width: 400px;
+  background-color:#ff7be2;
+}
+
+.orange--box{
+  width:400px;
+  background-color:#ffc67b;
+}
+
+.mizuiro--box{
+  background-color:#7bf2ff;
+}

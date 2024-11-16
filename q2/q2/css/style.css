@@ -1,2 +1,69 @@
 @charset "UTF-8";
 /* 回答はここから */
+h1, h2, h3 {
+  text-align: center;
+  margin: 40px 0;
+  font-weight: bold;
+}
+
+.title {
+  font-size: 30px;
+}
+
+.sub--title {
+  font-size: 24px;
+}
+
+.question--title {
+  font-size: 20px;
+}
+
+.q1--horizontality {
+  width: 200px;
+  margin: 0 auto 20px;
+  padding: 20px;
+  background-color: #a4e4f1;
+}
+
+.q1--perimeter {
+  width: 250px;
+  height: 150px;
+  margin: 0 auto 20px;
+  background-color: #a4e4f1;
+}
+
+.q1--position {
+  width: 250px;
+  margin: 0 auto;
+  padding: 20px 20px;
+  background-color: #a4e4f1;
+}
+
+.container {
+  display: inline-block;
+  width: 250px;
+  height: 150px;
+  margin: 0 auto;
+  background-color: #FFF;
+  font-size: 16px;
+  vertical-align: top;
+}
+.cardlist{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.cardlist-item{
+  outline: 10px solid #655;
+  box-shadow: 0 0 0 6px #655;
+  background: #d2b48c;
+  width: 200px;
+  list-style: none;
+  margin:30px;
+  padding:10px;
+  border-radius: 13px;
+}
+.card-text{
+  border-radius: 13px;
+}
